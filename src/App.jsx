@@ -17,6 +17,8 @@ Gracias por tu paciencia y comprensión mientras trabajamos para mejorar tu expe
 
 Atentamente,
 El equipo de Mentha Ecos</p>
+
+<p>+57 3197108904</p>
     </>
   )
 }
