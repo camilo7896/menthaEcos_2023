@@ -1,0 +1,19 @@
+.cont{
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.contImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 100%;
+}
+.imgIcon{
+    max-width: 30%;
+}
