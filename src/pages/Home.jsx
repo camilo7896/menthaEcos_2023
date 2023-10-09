@@ -1,3 +1,5 @@
+import CardHomeComponent from "../components/CardHomeComponent";
+import Cardfootercomponent from "../components/Cardfootercomponent";
 import SliderComponent from "../components/SliderComponent";
 import IconsProducts from "../components/iconsProducts/IconsProducts";
 import Navbar from "../components/navbar";
@@ -8,7 +10,9 @@ export default function Home() {
     <Navbar/>
     <SliderComponent/>
     <IconsProducts/>
-    <h1>Home</h1>      
+    <CardHomeComponent/>
+    <Cardfootercomponent/>
+    <h1>Home</h1>
     </div>
   )
 }
