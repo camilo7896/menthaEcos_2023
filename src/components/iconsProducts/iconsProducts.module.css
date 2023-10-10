@@ -1,0 +1,19 @@
+.cont{
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20px 50px 20px 50px;
+}
+.contImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 0;
+    width: auto;
+}
+.imgIcon{
+    max-width: 30%;
+}
