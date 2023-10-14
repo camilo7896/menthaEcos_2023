@@ -1,4 +1,3 @@
-import Button from '@mui/material/Button';
 export default function Cardfootercomponent() {
   return (
     <div>
@@ -28,7 +27,6 @@ export default function Cardfootercomponent() {
     </div>
   </div>
 </div>
-  <Button variant='contained'>Enviar</Button>
     </div>
 
   
