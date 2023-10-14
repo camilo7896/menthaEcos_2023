@@ -4,15 +4,15 @@ export default function IconsProducts() {
         <>
             <div className={Style.cont}>
                 <div className={Style.contImg}>
-                    <img className={Style.imgIcon} src="../../../public/pañalIcon.png" alt='Pañales para bebés'/>
+                    <img className={Style.imgIcon} src="../../../public/images/icono pañal.png" alt='Pañales para bebés'/>
                     <small>Pañales</small>
                 </div>
-                <div className={Style.contImg}>
-                    <img className={Style.imgIcon} src="../../../public/pañalIcon.png" alt='Pañales para bebés'/>
+                {/* <div className={Style.contImg}>
+                    <img className={Style.imgIcon} src="../../../public/images/logoCaballo.jpg" alt='Pañales para bebés'/>
                     <small>Mujer</small>
-                </div>
+                </div> */}
                 <div className={Style.contImg}>
-                    <img className={Style.imgIcon} src="../../../public/pañalIcon.png" alt='Pañales para bebés'/>
+                    <img className={Style.imgIcon} src="../../../public/images/ropita.png" alt='Pañales para bebés'/>
                     <small>Ropita</small>
                 </div>
             </div>

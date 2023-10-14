@@ -5,7 +5,11 @@ export default function Navbar() {
     <>
 <nav className="navbar navbar-expand-lg navbar-light bg-info">
   <div className="container-fluid ">
-    <Link to={'/'} className="navbar-brand">Logo</Link>
+  <div className="col-12 text-center w-25">
+    <Link to={'/'} className="navbar-brand">
+      <img className="img-fluid w-25" src={'../../public/images/mentha baby.png'} alt="Logo mentha ecos"/>
+    </Link>
+  </div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
