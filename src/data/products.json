@@ -1,0 +1,13 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Pañal 001",
+            "image":"",
+            "description":"",
+            "type":"pañal",
+            "priceString":"$47.000",
+            "price":47000
+        }
+    ]
+}

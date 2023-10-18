@@ -9,7 +9,7 @@ export default function CardHomeComponent() {
                     <img className="d-block w-100" src="../../public/pañalIcon.png" alt="Mentha ecos"></img>
                 </div>
                 <div>
-                    <h4 className="text-center">Title</h4>
+                    <h4>Title</h4>
                     <p>
                         Bienvenido a Mentha Ecos, tu destino integral para productos ecológicos de alta calidad. Nuestra misión es ofrecer productos sostenibles que cuiden del planeta y de tu familia. Descubre nuestra amplia gama de productos eco-amigables, incluyendo pañales ecológicos, toallas reutilizables y ropa adorable para bebés.
                     </p>

@@ -5,7 +5,9 @@ export default function Navbar() {
     <>
 <nav className="navbar navbar-expand-lg navbar-light bg-info">
   <div className="container-fluid ">
-    <Link to={'/'} className="navbar-brand">Logo</Link>
+    <Link to={'/'} className="navbar-brand">
+      <img className="img-fluid w-25" src={'../../public/images/logo.png'}/>
+    </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -25,7 +27,7 @@ export default function Navbar() {
             Productos
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a className="dropdown-item" href="#">Pañales para bebés</a></li>
+            <li><Link className="dropdown-item" to={"/pañales"}>Pañales para bebés</Link></li>
             <li><a className="dropdown-item" href="#">Productos para mujeres</a></li>
             <li><a className="dropdown-item" href="#">Ropita para bebés</a></li>
           </ul>
