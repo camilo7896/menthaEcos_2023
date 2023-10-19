@@ -13,7 +13,7 @@ export default function Home() {
     <IconsProducts/>
     <CardHomeComponent/>
     <Cardfootercomponent/>
-    <div className="container">
+    <div className="">
     <GaleriahorizontalComponent/>
     </div>
     </div>
